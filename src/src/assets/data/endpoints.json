@@ -1,0 +1,147 @@
+{
+    "playback":
+    {
+        "play":
+        {
+            "name": "Play",
+            "icon": "play",
+            "url": "http://192.168.0.122:8000/keypress/Play"
+        },
+        "backward":
+        {
+            "name": "backward",
+            "icon": "backward",
+            "url": "http://192.168.0.104:8060/keypress/Rev"
+        },
+        "forward":
+        {
+            "name": "Forward",
+            "icon": "forward",
+            "url": "http://192.168.0.104:8060/keypress/Fwd"
+        },
+        "replay":
+        {
+            "name": "Replay",
+            "icon": "reply",
+            "url": "http://192.168.0.104:8060/keypress/InstantReplay"
+        },
+        "stop":
+        {
+            "name": "Stop",
+            "icon": "stop",
+            "url": "http://192.168.0.104:8060/keypress/Stop"
+        }
+    },
+
+    "volume":
+    {
+        "up":
+        {
+            "name": "Vol +",
+            "url": "http://192.168.0.104:8060/keypress/VolumeUp"
+        },
+        "down":
+        {
+            "name": "Vol -",
+            "url": "http://192.168.0.104:8060/keypress/VolumeDown"
+        },
+        "mute":
+        {
+            "name": "Mute",
+            "url": "http://192.168.0.104:8060/keypress/VolumeMute"
+        }
+    },
+
+    "power":
+    {
+        "on":
+        {
+            "name": "PowerOn",
+            "icon": "power-off",
+            "url": "http://192.168.0.104:8060/keypress/PowerOn"
+        },
+        "off":
+        {
+            "name": "PowerOff",
+            "icon": "power-off",
+            "url": "http://192.168.0.104:8060/keypress/PowerOff"
+        }
+    },
+    "navigation":
+    {
+        "left":
+        {
+            "name": "Left",
+            "icon": "arrow-left",
+            "url": "http://192.168.0.104:8060/keypress/Left"
+        },
+        "right":
+        {
+            "name": "Right",
+            "icon": "arrow-right",
+            "url": "http://192.168.0.104:8060/keypress/Right"
+        },
+        "up":
+        {
+            "name": "Up",
+            "icon": "arrow-up",
+            "url": "http://192.168.0.104:8060/keypress/Up"
+        },
+        "down":
+        {
+            "name": "Down",
+            "icon": "arrow-down",
+            "url": "http://192.168.0.104:8060/keypress/Down"
+        },
+        "back":
+        {
+            "name": "Back",
+            "icon": "undo",
+            "url": "http://192.168.0.104:8060/keypress/Back"
+        },
+        "select":
+        {
+            "name": "Select",
+            "icon": "circle-notch",
+            "url": "http://192.168.0.104:8060/keypress/Select"
+        },
+        "info":
+        {
+            "name": "info",
+            "url": "http://192.168.0.104:8060/keypress/Info"
+        },
+        "home":
+        {
+            "name": "Home",
+            "icon": "home",
+            "url": "http://192.168.0.104:8060/keypress/Home"
+        }
+    },
+    "queries":
+    {
+        "activeChannel":
+        {
+            "url": "http://192.168.0.104:8060/query/tv-active-channel"
+        },
+        "device-info":
+        {
+            "url": "http://192.168.0.104:8060/query/device-info"
+        }
+    },
+    "input": [
+    {
+        "name": "Backspace",
+        "url": "http://192.168.0.104:8060/keypress/Backspace"
+
+    },
+    {
+        "name": "Search",
+        "url": "http://192.168.0.104:8060/keypress/Search"
+
+    },
+    {
+        "name": "Enter",
+        "url": "http://192.168.0.104:8060/keypress/Enter"
+
+    }]
+}
