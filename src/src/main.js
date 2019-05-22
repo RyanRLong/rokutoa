@@ -5,8 +5,8 @@ import VueAxios from 'vue-axios'
 import store from './store'
 import './registerServiceWorker'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faReply, faForward, faBackward, faPlay, faStop } from '@fortawesome/free-solid-svg-icons'
-import { faCircleNotch, faHome, faUndo, faArrowLeft, faArrowRight, faArrowDown, faArrowUp, faPowerOff } from '@fortawesome/free-solid-svg-icons'
+import { faReply, faForward, faBackward, faPlay, faStop, faCircleNotch, faHome, faUndo, faArrowLeft, faArrowRight, faArrowDown, faArrowUp, faPowerOff } from '@fortawesome/free-solid-svg-icons'
+
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 Vue.use(VueAxios, axios)
